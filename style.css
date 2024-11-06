@@ -28,7 +28,7 @@ p.red {
 
 /* 
 
-BOX MODEL */
+BOX MODEL
 
 .box {
     width: 200px;
@@ -37,4 +37,63 @@ BOX MODEL */
     border: 15px solid red;
     padding: 15px;
     margin: 15px;
+}
+
+*/
+
+/* POSITIONING 
+
+div {
+    height: 200px;
+    border: 3px solid black;
+}
+
+.red {
+    background-color: red;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.child {
+    background-color: blue;
+    width: 100PX;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+*/
+
+/* MEDIA QUERIES 
+div {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+}
+
+@media (max-width: 992px) {
+    div {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    div {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 576px){
+    div {
+        font-size: 16px;
+    }
+
+}
+
+*/
+
+div:hover {
+    transition: background-color 300ms;
+    background-color: rgba(0, 0, 0, 0.5)
 }
